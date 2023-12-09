@@ -1,0 +1,63 @@
+* {
+    font-family: Ink Free;
+}
+
+.container {
+    border: 10px solid #000;
+    width: 866px;
+    height: 930px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.item1 {
+    width: 368px;
+    height: 120px;
+}
+
+.item-1 {
+    background: #E00000;
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400;
+}
+.item-2 {
+    background: #2CC6AA;
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400;
+}
+.item-3 {
+    background: #BE5393;
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400;
+}
+.item-4 {
+    background: #1DA43A;
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400;
+}
+.item-5 {
+    background: #193AAE;
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400;
+}
+.item-6 {
+    background: #D3C545;
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400;
+}

@@ -1,0 +1,38 @@
+.container {
+ display: grid;
+grid-template-columns: 200px 1fr;
+grid-template-rows: 300px 200px 200px;
+grid-auto-rows: 200px;
+grid-auto-columns: 1fr;
+grid-template-areas: 
+'section section'
+'main footer'
+'section2 section2'
+'footer2 footer2';
+}
+
+
+.container>header {
+    background-color: antiquewhite;
+    grid-area: header;
+}
+.container>section {
+    grid-area: section;
+    background: blue;
+}
+.container> .section2  {
+    grid-area: section2;
+    background: blue;
+}
+.container>main {
+    grid-area: main;
+    background: gold;
+}
+.container>footer {
+    grid-area: footer;
+    background: gray;
+}
+.container> .footer2 {
+    grid-area: footer2;
+    background: gray;
+}

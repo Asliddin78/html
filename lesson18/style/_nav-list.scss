@@ -1,0 +1,9 @@
+.nav-list_item:hover {
+    color: rgba(0, 0, 255, 0.59);
+    transform: scale(1.2);
+}
+
+button:active {
+    background: rgba(0, 0, 255, 0.59);
+    transform: scale(1.1);
+}

@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+body {
+  background: var(--cream-bg, #F2EAE2);
+}
+
+* {
+  margin: 0;
+}
+
+div, p {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h2 {
+  font-family: "Fraunces", serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 175px;
+  width: 600px;
+  height: 450px;
+  border-radius: 10px;
+  background: var(--Pure-White, #FFF);
+}
+header .img {
+  border-radius: 10px 0 0 10px;
+}
+
+.container {
+  width: 300px;
+  height: 100%;
+  padding: 32px;
+}
+.container .text-perfume {
+  color: var(--Aurometal-Saurus, #6C7289);
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+.container h1 {
+  color: var(--Gunmetal, #1C232B);
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+.container p {
+  color: var(--Aurometal-Saurus, #6C7289);
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  margin-bottom: 29px;
+}
+.container .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--Aurometal-Saurus, #6C7289);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 33px;
+  gap: 18px;
+  margin-bottom: 6px;
+}
+.container .price h1 {
+  color: var(--Deep-Aquamarine, #3D8168);
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.container .box {
+  width: 236px;
+  height: 48px;
+  border-radius: 8px;
+  background: var(--Deep-Aquamarine, #3D8168);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--Pure-White, #FFF);
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  gap: 11.61px;
+}
+.container .box:hover {
+  cursor: pointer;
+  background: var(--deep-aquamarine-hover, #1A4032);
+}
+
+@media (min-width: 375px) and (max-width: 600px) {
+  header {
+    margin-top: 70px;
+    width: 343px;
+    height: 611px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .img {
+    height: 220px;
+    border-radius: 10px 10px 0 0;
+  }
+  .container {
+    padding: 24px;
+  }
+  .container .box {
+    margin: 0;
+  }
+}

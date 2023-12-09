@@ -1,0 +1,20 @@
+.box{
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+.box2 {
+    background: rgb(1, 241, 1);
+    width: 100px;
+    height: 100px;
+}
+.box3 {
+    background: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+
+.box:hover ~ .box3 {
+    color: white;
+}

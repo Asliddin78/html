@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    font-family: Ubuntu;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#img1 {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#p1 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.myhobby {
+    color: #290886;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.reading {
+    color: #AA3E4B;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.learning {
+    color: #FB0808;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.relieve {
+    color: #001FC3;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+s {
+    color: #F7FC15;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: strikethrough;
+}
+
+.daily {
+    color: #13AB19;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#p2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box{
+    text-align: left;
+}

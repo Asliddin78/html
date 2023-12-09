@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+.body-container {
+  margin: 0 auto;
+  width: 1440px;
+}
+.body-container .logo {
+  margin: 65px 0 0 165px;
+}
+.body-container .container {
+  margin: 136px 0 0 165px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.body-container .container .text-box {
+  width: 445px;
+  margin-right: 215px;
+}
+.body-container .container h1 {
+  color: #423A3A;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 71px;
+  letter-spacing: 17.321px;
+}
+.body-container .container h1 span {
+  color: #CE9898;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 17.321px;
+}
+.body-container .container p {
+  margin-top: 32px;
+  color: #CE9898;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.body-container .container .human {
+  margin-top: -230px;
+}
+.body-container .container .input-box {
+  position: relative;
+  margin-top: 40px;
+}
+.body-container .container .input-box input[type=text] {
+  width: 381px;
+  height: 56px;
+  border-radius: 28px;
+  border: 1px solid #CE9898;
+  opacity: 0.5;
+  padding: 0 32px;
+}
+.body-container .container .input-box input[placeholder] {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.body-container .container .input-box .email {
+  position: absolute;
+  left: 327px;
+  top: -4px;
+}
+
+.email:hover {
+  cursor: pointer;
+}
+
+@media (width <= 650px) {
+  .body-container {
+    width: 375px;
+  }
+  .body-container .logo {
+    margin: 32px 0 0 32px;
+  }
+  .body-container .container {
+    margin: 50px 0 0 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .body-container .container .text-box {
+    width: 311px;
+    margin-right: 0;
+    margin-top: 40px;
+  }
+  .body-container .container h1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: 10.825px;
+  }
+  .body-container .container h1 span {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 42px;
+    letter-spacing: 10.825px;
+  }
+  .body-container .container p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .body-container .container .human {
+    width: 375px;
+    height: 260px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center top;
+       object-position: center top;
+    margin-top: 0;
+  }
+  .body-container .container .input-box {
+    width: 311px;
+    margin-top: 32px;
+  }
+  .body-container .container .input-box input[type=text] {
+    width: 247px;
+  }
+  .body-container .container .input-box .email {
+    left: 195px;
+  }
+}

@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+.box {
+    margin-top: 31px;
+    margin-left: 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.item {
+    width: 80px;
+    height: 125px;
+    background: #D9D9D9;
+}
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    margin-top: 144px;
+    margin-left: 65px;
+}
+.item2 {
+    width: 80px;
+    height: 125px;
+    transform: rotate(89.527deg);
+    background: #D9D9D9;
+}

@@ -1,0 +1,52 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+    'i2 i3 i4'
+    'i5 i1 i1'
+    'i6 i1 i1'
+    'i7 i8 i9';
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    min-height: 100vh;
+}
+
+.i1 {
+    grid-area: i1;
+    background: red;
+}
+.i2 {
+    grid-area: i2;
+    background: greenyellow;
+}
+.i3 {
+    grid-area: i3;
+    background: greenyellow;
+}
+.i4 {
+    grid-area: i4;
+    background: greenyellow;
+}
+.i5 {
+    grid-area: i5;
+    background: greenyellow;
+}
+.i6 {
+    grid-area: i6;
+    background: greenyellow;
+}
+.i7 {
+    grid-area: i7;
+    background: greenyellow;
+}
+.i8 {
+    grid-area: i8;
+    background: greenyellow;
+}
+.i9 {
+    grid-area: i9;
+    background: greenyellow;
+}
+
+.item {
+    border: 2px solid white;
+    font-size: 40px;
+}

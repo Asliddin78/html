@@ -1,0 +1,289 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap");
+body {
+  font-family: "JetBrains Mono", monospace;
+  background: #08070B;
+}
+
+* {
+  margin: 0;
+}
+
+input[type=checkbox] {
+  accent-color: #A4FFAF;
+}
+
+.checkbox label {
+  border-radius: 50px;
+}
+
+label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 0px;
+  margin-right: 15px;
+  font-size: 11px;
+}
+
+label:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 24px;
+  bottom: 1px;
+  background-color: #A4FFAF;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.checkbox label:before {
+  border-radius: 3px;
+}
+
+input[type=checkbox]:checked + label:before {
+  content: "✓";
+  font-size: 19px;
+  text-align: center;
+  color: black;
+  line-height: 17px;
+}
+
+.input-div {
+  margin-bottom: 19px;
+}
+
+label {
+  color: var(--Almost-White, #E6E5EA);
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.text-generator {
+  margin: 0 auto;
+  margin-top: 133px;
+  width: 300px;
+}
+.text-generator .text {
+  color: #817D92;
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 31px;
+  width: 540px;
+  height: 80px;
+  background: #24232C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 32px;
+}
+.container h1 {
+  color: #E6E5EA;
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.container2 {
+  width: 540px;
+  height: 496px;
+  background: #24232C;
+  margin: 0 auto;
+  margin-top: 24px;
+  padding: 24px 32px 32px 32px;
+}
+.container2 .character-length {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-bottom: 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 317px;
+}
+.container2 .character-length .text-character {
+  color: #E6E5EA;
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-weight: 700;
+}
+.container2 .character-length .text-number {
+  color: #A4FFAF;
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
+  font-size: 32px;
+  font-weight: 700;
+}
+.container2 .length-box {
+  position: relative;
+  margin-top: 26px;
+  margin-bottom: 42px;
+  width: 530px;
+  height: 8px;
+  background: var(--Very-Dark-Grey, #18171F);
+}
+.container2 .length-box .length-green {
+  width: 270px;
+  height: 8px;
+  background: var(--Neon-Green, #A4FFAF);
+}
+.container2 .length-box .oval {
+  position: absolute;
+  left: 258px;
+  top: -9px;
+}
+.container2 .strength-box {
+  width: 530px;
+  height: 72px;
+  background: #18171F;
+  margin-top: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 200px;
+}
+.container2 .strength-box .text-strength {
+  color: var(--Grey, #817D92);
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-weight: 700;
+}
+.container2 .strength-box .medium {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+}
+.container2 .strength-box .medium .text-medium {
+  color: var(--Almost-White, #E6E5EA);
+  text-align: right;
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
+  font-family: JetBrains Mono;
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 15.5px;
+}
+.container2 .strength-box .medium .medium-box {
+  width: 10px;
+  height: 28px;
+  background: var(--3---Yellow, #F8CD65);
+}
+.container2 .strength-box .medium .medium-box-black {
+  width: 8px;
+  height: 25px;
+  border: 2px solid var(--Almost-White, #E6E5EA);
+}
+.container2 .generate-box {
+  margin-top: 32px;
+  width: 530px;
+  height: 65px;
+  background: var(--Neon-Green, #A4FFAF);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+}
+.container2 .generate-box .text-generate2 {
+  color: var(--Dark-Grey, #24232C);
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media (min-width: 375px) and (max-width: 625px) {
+  .text-generator {
+    margin-top: 64px;
+    font-size: 16px;
+  }
+  .container {
+    width: 343px;
+    height: 64px;
+    padding: 16px;
+  }
+  .container h1 {
+    font-size: 24px;
+  }
+  .container2 {
+    width: 343px;
+    height: 423px;
+    padding: 16px;
+    margin-top: 16px;
+  }
+  .container2 .character-length {
+    gap: 150px;
+  }
+  .container2 .character-length .text-character {
+    font-size: 16px;
+  }
+  .container2 .character-length .text-number {
+    font-size: 24px;
+  }
+  .container2 .length-box {
+    margin-top: 23px;
+    width: 343px;
+  }
+  .container2 .length-box .length-green {
+    width: 171px;
+  }
+  .container2 .length-box .oval {
+    left: 160px;
+  }
+  .container2 .strength-box {
+    width: 343px;
+    height: 56px;
+    gap: 50px;
+  }
+  .container2 .strength-box .text-strength {
+    font-size: 16px;
+  }
+  .container2 .strength-box .medium .text-medium {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .container2 .generate-box {
+    width: 343px;
+    height: 56px;
+    margin-top: 20px;
+  }
+  .input-div {
+    margin-bottom: 16px;
+  }
+}

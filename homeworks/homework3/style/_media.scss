@@ -1,0 +1,69 @@
+@media (width <=690px) {
+    .body-container {
+        width: 375px;   
+        height: 667px;
+        background-size: cover;
+
+        section {
+            width: 327px;
+            .h1-box {
+                h1 {
+                    font-size: 18px;
+                    letter-spacing: 6.136px;
+                    margin-top: 142px;
+                }
+            }
+            .box {
+                width: 327px;
+                gap: 15px;
+                margin-top: 54px;
+            }
+            .img-box {
+                width: 70px;
+                height: 71px;
+
+                .d1 {
+                    width: 6px;
+                    height: 6px;
+                    top: 30px;
+                    left: -3px;
+                }
+                .d {
+                    width: 6px;
+                    height: 6px;
+                    top: 30px;
+                    left: 67px;
+                }
+                .fg {
+                    width: 70px;
+                    height: 33px;
+                }
+                .hr {
+                    width: 70px;
+                    height: 0.473px;
+                    top: 32.8px;
+                }
+                .h2-box {
+                    width: 70px;
+                    height: 67px;
+                    h2 {
+                        font-size: 36px;
+                        letter-spacing: -1.08px;
+                    }
+                }
+            }
+            .texts {
+                font-size: 7px;
+                letter-spacing: 2.959px;
+                width: 70px;
+            }
+        }
+        .logo {
+            width: 136px;
+            img {
+                width: 136px;
+                height: 24px;
+            }
+        }
+    }
+ }

@@ -1,0 +1,11 @@
+@media (min-width: 375px) and (max-width: 600px) {
+    .body-container {
+        width: 375px;
+        .mountains {
+            width: 375px;
+            height: 100px;
+            object-fit: cover;
+        }
+    }
+    
+}

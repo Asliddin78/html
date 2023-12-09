@@ -1,0 +1,66 @@
+@media (width <=600px) { 
+    .body-container {
+        width: 343px;
+        padding: 28px 16px;
+        .nav {
+            width: 343px;
+            gap: 258px;
+            margin-bottom: 32px;
+        }
+        .nav-list {
+            display: none;
+            padding: 0;
+            li {
+                display: none;
+            }
+        }
+        .menu-box {
+            display: flex;
+            flex-direction: column;
+            margin-top: 13px;
+            margin-left: -280px;
+            gap: 4px;
+            width: 40px;
+            height: 17px;
+            .arrow {
+                width: 40px;
+                height: 3px;
+                background: #00001A;
+            }
+        }
+        header {
+            flex-direction: column;
+            .box {
+                img {
+                    width: 343px;
+                    height: 300px;
+                    object-fit: cover;
+                }
+                .text-box {
+                    flex-direction: column;
+                    margin-top: 24px;
+                    .h1-box {
+                        width: 343px;
+                        height: 120px;
+                        h1 {
+                            font-size: 40px;
+                            line-height: 40px;
+                        }
+                    }
+                    .p-box {
+                        width: 343px;
+                        margin-left: 0px;
+                        margin-top: 16px;
+                    }
+                }
+            }
+            .box2 {
+                padding: 24px 20.5px;
+            }
+        }
+        section {
+            flex-direction: column;
+            margin-top: 64px;
+        }
+    }
+}

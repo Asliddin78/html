@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+* {
+  margin-top: 0;
+}
+
+.lh {
+  color: #D1D2DA;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.25px;
+  text-decoration-line: strikethrough;
+}
+
+.lb1 {
+  color: #494C6B;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.25px;
+}
+
+.body-container {
+  margin: 0 auto;
+  width: 1440px;
+  height: 800px;
+}
+.body-container .mountains {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+.body-container .create-container {
+  margin-top: 71px;
+  width: 541px;
+  height: 48px;
+  margin: 0 auto;
+  margin-top: 71px;
+  margin-bottom: 39px;
+}
+.body-container .create-container h1 {
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 15px;
+}
+.body-container .create-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-bottom: 44px;
+  width: 540px;
+  height: 64px;
+  border-radius: 5px;
+  background: #FFF;
+  -webkit-box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+          box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+}
+.body-container .create-box .input-create {
+  margin-left: 20px;
+}
+.body-container .create-box .placeholder {
+  color: #9495A5;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.25px;
+}
+.body-container .check-box-container {
+  position: relative;
+  margin: 0 auto;
+  width: 540px;
+  height: 429px;
+  border-radius: 5px;
+  background: #FFF;
+  -webkit-box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+          box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+}
+.body-container .check-box-container .input-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 492px;
+  height: 23.453px;
+  margin: 19.5px 24px 19.5px 24px;
+}
+.body-container .check-box-container .hr {
+  width: 530px;
+}
+.body-container .check-box-container .text-div {
+  width: 492px;
+  height: 34.86px;
+  margin-left: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.body-container .check-box-container .text-div .text1 {
+  color: #9495A5;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.194px;
+}
+.body-container .check-box-container .text-div .text2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 166px;
+  padding-bottom: 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 19px;
+  margin-left: 96px;
+  margin-right: 56px;
+}
+.body-container .check-box-container .text-div .text2 .all {
+  color: #3A7CFD;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.194px;
+}
+.body-container .check-box-container .text-div .text2 .active {
+  color: #9495A5;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.194px;
+}
+.body-container .check-box-container .text-div .text3 {
+  color: #9495A5;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.194px;
+}
+.body-container .drag {
+  width: 215px;
+  margin: 0 auto;
+  margin-top: 49px;
+  color: #9495A5;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.194px;
+}
+
+hr {
+  width: 540px;
+  background: #E3E4F1;
+}
+
+input, label, .text1, .text2, .text3, .delete-img:hover {
+  cursor: pointer;
+}
+
+.delete-img {
+  position: absolute;
+  right: 24px;
+}
+
+.input-div:hover .delete-img {
+  width: 18px;
+  height: 18px;
+}
+
+input[type=checkbox] {
+  accent-color: #55DDFF;
+}
+
+label {
+  display: inline-block;
+  position: relative;
+  margin-left: 24px;
+}
+
+.checkbox {
+  display: none;
+}
+
+.fake {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+@media (min-width: 375px) and (max-width: 600px) {
+  .body-container {
+    width: 375px;
+  }
+  .body-container .mountains {
+    width: 375px;
+    height: 100px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}

@@ -1,0 +1,78 @@
+.doroga {
+    position: absolute;
+    left: 0;
+    top: -900px;
+    z-index: -2;
+    animation: container4 3s linear infinite;
+}
+@keyframes container4 {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -1500px;
+    }
+}
+
+
+
+.kuzov2 {
+    position: absolute;
+    top: 50px;
+    animation: container5 3s linear infinite;
+    z-index: -1;
+}
+
+.koleso3 {
+    position: absolute;
+    top: 213px;
+    left: 50px;
+    z-index: -1;
+    animation: container6 3s linear infinite;
+}
+
+.koleso4 {
+    position: absolute;
+    top: 213px;
+    left: 290px;
+    z-index: -1;
+    animation: container7 3s linear infinite;
+}
+
+@keyframes container7 {
+    0% {
+        top: 255px;
+        left: 3040px;
+        transform: rotate(-7000deg);
+    }
+
+    100% {
+        top: 255px;
+        left: -1448px;
+        transform: rotate(7000deg);
+    }
+}
+
+@keyframes container6 {
+    0% {
+        top: 255px;
+        left: 3280px;
+        transform: rotate(-7000deg);
+    }
+
+    100% {
+        top: 255px;
+        left: -1208px;
+        transform: rotate(7000deg);
+    }
+}
+
+@keyframes container5 {
+    0% {
+        left: 3000px;
+    }
+
+    100% {
+        left: -1500px;
+    }
+}

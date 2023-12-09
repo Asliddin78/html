@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+body {
+  font-family: "League Spartan", sans-serif;
+  background: #3A4663;
+}
+
+* {
+  margin: 0;
+}
+
+.container {
+  width: 540px;
+  margin: 0 auto;
+  margin-top: 96px;
+  margin-bottom: 100px;
+}
+.container .theme-box {
+  width: 540px;
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container .theme-box h2 {
+  color: #FFF;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.533px;
+  line-height: 60px;
+}
+.container .theme-box .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 26px;
+}
+.container .theme-box .box .theme {
+  color: #FFF;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 26px;
+}
+.container .theme-box .box .number-box span {
+  color: #FFF;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 11px;
+}
+.container .theme-box .box .number-box span:nth-child(1) {
+  margin-left: 11px;
+}
+.container .theme-box .box .number-box .mini-box {
+  margin-top: 5px;
+  width: 71px;
+  height: 26px;
+  border-radius: 13px;
+  background: #242D44;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .theme-box .box .number-box .mini-box .oval {
+  width: 16px;
+  height: 16px;
+  background: #D03F2F;
+  border-radius: 50px;
+  margin-left: 5px;
+}
+.container .number-table {
+  margin-top: 32px;
+  width: 540px;
+  height: 128px;
+  border-radius: 10px;
+  background: #181F33;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .number-table h1 {
+  color: #FFF;
+  text-align: right;
+  font-family: League Spartan;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.933px;
+  margin-right: 32px;
+}
+.container .calculator-container {
+  width: 540px;
+  height: 448px;
+  border-radius: 10px;
+  background: #242D44;
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 0px 25px;
+  padding: 20px 0;
+}
+.container .calculator-container .item {
+  width: 101px;
+  height: 64px;
+  border-radius: 10px;
+  background: #EAE3DC;
+  -webkit-box-shadow: 0px -4px 0px 0px #B3A497 inset;
+          box-shadow: 0px -4px 0px 0px #B3A497 inset;
+}
+.container .calculator-container .item:nth-child(4) {
+  border-radius: 10px;
+  background: #647198;
+  -webkit-box-shadow: 0px -4px 0px 0px #414E73 inset;
+          box-shadow: 0px -4px 0px 0px #414E73 inset;
+  color: #FFF;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.467px;
+}
+.container .calculator-container .item:nth-child(17) {
+  width: 227px;
+  height: 64px;
+  border-radius: 10px;
+  background: #647198;
+  -webkit-box-shadow: 0px -4px 0px 0px #414E73 inset;
+          box-shadow: 0px -4px 0px 0px #414E73 inset;
+  color: #FFF;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.467px;
+}
+.container .calculator-container .item:nth-child(18) {
+  width: 227px;
+  height: 64px;
+  border-radius: 10px;
+  background: #D03F2F;
+  -webkit-box-shadow: 0px -4px 0px 0px #93261A inset;
+          box-shadow: 0px -4px 0px 0px #93261A inset;
+  color: #FFF;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.467px;
+}
+.container .calculator-container .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #434A59;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.667px;
+}
+.container .oval:hover {
+  background: #F96B5B;
+  cursor: pointer;
+}
+.container .item:hover {
+  background: #FFFFFE;
+  cursor: pointer;
+}
+.container .item:nth-child(4):hover {
+  background: #A2B2E1;
+}
+.container .item:nth-child(17):hover {
+  background: #A2B2E1;
+}
+.container .item:nth-child(18):hover {
+  background: #F96B5B;
+}
+
+@media (width <= 600px) {
+  .container {
+    width: 340px;
+    height: 667px;
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 24px;
+  }
+  .container .theme-box {
+    width: 327px;
+    height: 42px;
+  }
+  .container .number-table {
+    width: 327px;
+    height: 88px;
+  }
+  .container .number-table h1 {
+    font-size: 40px;
+    letter-spacing: -0.667px;
+    margin-right: 24px;
+  }
+  .container .calculator-container {
+    width: 327px;
+    height: 420px;
+    gap: 0 13px;
+  }
+  .container .calculator-container .item {
+    width: 60px;
+    height: 64px;
+    font-size: 32px;
+    letter-spacing: -0.533px;
+  }
+  .container .calculator-container .item:nth-child(17) {
+    width: 133px;
+    height: 64px;
+    font-size: 20px;
+  }
+  .container .calculator-container .item:nth-child(18) {
+    width: 133px;
+    height: 64px;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,69 @@
+@media (min-width: 375px) and (max-width: 625px) {
+    .text-generator {
+        margin-top: 64px;
+        font-size: 16px;
+    }
+    .container {
+        width: 343px;
+        height: 64px;
+        padding: 16px;
+        h1 {
+            font-size: 24px;
+        }
+    }
+
+    .container2 {
+        width: 343px;
+        height: 423px;
+        padding: 16px;
+        margin-top: 16px;
+
+        .character-length {
+            gap: 150px;
+        .text-character {
+            font-size: 16px;
+        }
+        .text-number {
+            font-size: 24px;
+            }
+        }
+        .length-box {
+            margin-top: 23px;
+            width: 343px;
+            .length-green {
+                width: 171px;
+            }
+            .oval {
+                left: 160px;
+            }
+        }
+
+        .strength-box {
+            width: 343px;
+            height: 56px;
+            gap: 50px;
+            .text-strength {
+                font-size: 16px;
+            }
+            .medium {
+              .text-medium {
+                font-size: 18px;
+                line-height: 30px;
+              }  
+            }
+            
+        }
+
+        .generate-box {
+            width: 343px;
+            height: 56px;
+            margin-top: 20px;
+        }
+    }
+
+    
+
+    .input-div {
+        margin-bottom: 16px;
+    }
+}

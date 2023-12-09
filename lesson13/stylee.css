@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    font-family: 'Indie Flower', cursive;
+}
+.container {
+    margin: 0 auto;
+    width: 1600px;
+    height: 86px;
+    background: #4F6CB8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.text {
+    color: #FFF;
+    font-family: Indie Flower;
+    font-size: 40px;
+    font-weight: 400;
+}
+.text2 {
+    color: #FFF;
+    font-family: Indie Flower;
+    font-size: 20px;
+    font-weight: 400;
+}
+h1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -1150px;
+    margin-top: 190px;
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 3.15px;
+}
+
+.container2 {
+    display: grid;
+    justify-content: center;
+    gap: 30px 40px;
+    grid-template-columns: 400px 400px 400px;
+}

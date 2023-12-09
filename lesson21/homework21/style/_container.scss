@@ -1,0 +1,137 @@
+.body-container {
+    margin: 0 auto;
+    width: 1440px;
+    height: 800px;
+    .mountains {    
+        position: absolute;
+        z-index: -1;
+        top: 0;
+    }
+    .create-container {
+        margin-top: 71px;
+        width: 541px;
+        height: 48px;
+        margin: 0 auto;
+        margin-top: 71px;
+        margin-bottom: 39px;
+        h1 {
+            color: #FFF;
+            font-size: 40px;
+            font-weight: 700;
+            letter-spacing: 15px;
+        }
+    }
+
+    .create-box {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 44px;
+        width: 540px;
+        height: 64px;
+        border-radius: 5px;
+        background: #FFF;
+        box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.50);
+        .input-create {
+            margin-left: 20px;
+        }
+        .placeholder {
+            color: #9495A5;
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: -0.25px;
+        }
+    }
+
+    .check-box-container {
+        position: relative;
+        margin: 0 auto;
+        width: 540px;
+        height: 429px;
+        border-radius: 5px;
+        background: #FFF;
+        box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.50);
+        .input-div {
+            display: flex;
+            align-items: center;
+            width: 492px;
+            height: 23.453px;
+            margin:  19.50px 24px 19.50px 24px;
+        }
+        .hr {
+            width: 530px;
+        }
+        .text-div {
+            width: 492px;
+            height: 34.86px;
+            margin-left: 24px;
+            display: flex;
+            align-items: center;
+            .text1 {
+                color: #9495A5;
+                font-size: 14px;
+                font-weight: 400;
+                letter-spacing: -0.194px;
+            }
+            .text2 {
+                display: flex;
+                width: 166px;
+                padding-bottom: 0px;
+                justify-content: center;
+                align-items: flex-start;
+                gap: 19px;
+                margin-left: 96px;
+                margin-right: 56px;
+                .all {
+                    color: #3A7CFD;
+                    font-size: 14px;
+                    font-weight: 700;
+                    letter-spacing: -0.194px;
+                }
+                .active {
+                    color: #9495A5;
+                    font-size: 14px;
+                    font-weight: 700;
+                    letter-spacing: -0.194px;
+                }
+            }
+            .text3 {
+                color: #9495A5;
+                font-size: 14px;
+                font-weight: 400;
+                letter-spacing: -0.194px;
+            }
+        }
+    }
+    .drag {
+        width: 215px;
+        margin: 0 auto;
+        margin-top: 49px;
+        color: #9495A5;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: -0.194px;
+    }
+}
+
+hr {
+    width: 540px;
+    background: #E3E4F1;
+}
+
+
+input,label,.text1,.text2,.text3,.delete-img:hover {
+    cursor: pointer;
+}
+
+
+.delete-img {
+    position: absolute;
+    right: 24px;
+}
+.input-div:hover {
+    .delete-img {
+     width: 18px;
+     height: 18px;   
+    } 
+}

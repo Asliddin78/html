@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+NKo+Unjoined&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+.ubuntu{
+    font-family: Ubuntu;
+}
+.serif{
+    font-family: Young Serif;
+}
+.sans{
+    font-family: Noto Sans NKo Unjoined;
+}
+.pixel{
+    font-family: Pixelify Sans;
+}
+.gothic{
+    font-family: 'Dela Gothic One', cursive;
+}

@@ -1,0 +1,19 @@
+input[type=checkbox] {
+    accent-color: #55DDFF;
+}
+
+label {
+    display: inline-block;
+    position: relative;
+    margin-left: 24px;
+}
+
+.checkbox {
+    display: none;
+}
+.fake {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}

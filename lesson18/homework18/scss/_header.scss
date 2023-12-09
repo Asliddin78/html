@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 175px;
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    background: var(--Pure-White, #FFF);
+    & .img {
+            border-radius: 10px 0 0 10px;
+    }
+}

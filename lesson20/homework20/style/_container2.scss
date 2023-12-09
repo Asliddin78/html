@@ -1,0 +1,102 @@
+.container2 {
+    width: 540px;
+    height: 496px;
+    background: #24232C;
+    margin: 0 auto;
+    margin-top: 24px;
+    padding: 24px 32px 32px 32px;
+    .character-length {
+        display: inline-flex;
+        padding-bottom: 0px;
+        justify-content: center;
+        align-items: center;
+        gap: 317px;
+        .text-character {
+            color: #E6E5EA;
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-size: 18px;
+                font-weight: 700;
+        }
+        .text-number {
+            color: #A4FFAF;
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-size: 32px;
+                font-weight: 700;
+        }
+    }
+    .length-box {
+        position: relative;
+        margin-top: 26px;
+        margin-bottom: 42px;
+        width: 530px;
+        height: 8px;
+        background: var(--Very-Dark-Grey, #18171F);
+    .length-green {
+        width: 270px;
+        height: 8px;
+        background: var(--Neon-Green, #A4FFAF); 
+    }        
+    .oval {
+        position: absolute;
+        left: 258px;
+        top: -9px;
+    }
+    }
+    .strength-box {
+        width: 530px;
+        height: 72px;
+        background: #18171F;
+        margin-top: 31px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 200px;
+        .text-strength {
+            color: var(--Grey, #817D92);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-size: 18px;
+                font-weight: 700;
+        }
+        .medium {
+            display: flex;
+            gap: 8px;
+            .text-medium {
+                color: var(--Almost-White, #E6E5EA);
+                    text-align: right;
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: JetBrains Mono;
+                    font-size: 24px;
+                    font-weight: 700;
+                    margin-right: 15.5px;
+            }
+            .medium-box {
+                width: 10px;
+                height: 28px;
+                background: var(--3---Yellow, #F8CD65);
+            }
+            .medium-box-black {
+                width: 8px;
+                height: 25px;
+                border: 2px solid var(--Almost-White, #E6E5EA);
+            }
+        }
+    }
+
+    .generate-box {
+        margin-top: 32px;
+        width: 530px;
+        height: 65px;
+        background: var(--Neon-Green, #A4FFAF);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        .text-generate2 {
+            color: var(--Dark-Grey, #24232C);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-size: 18px;
+                font-weight: 700;
+        }
+    }
+
+}

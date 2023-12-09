@@ -1,0 +1,54 @@
+* {
+    top: 150px;
+}
+.kuzov {
+    position: absolute;
+    transform: scaleX(-1);
+    animation: container 5s linear infinite alternate-reverse;
+}
+.koleso {
+    position: absolute;
+    top: 213px;
+    left: 50px;
+    animation: container2 5s linear infinite alternate-reverse;
+}
+.koleso2 {
+    position: absolute;
+    top: 213px;
+    left: 290px;
+    animation: container3 5s linear infinite alternate-reverse;
+}
+@keyframes container3 {
+    0% {
+        top: 355px;
+        left: 288px;
+        transform: rotate(-7000deg);
+        }
+    100% {
+        top: 355px;
+        left: 583px;
+        transform: rotate(7000deg);
+ }
+}
+
+@keyframes container2 {
+    0% {
+        top: 355px;
+        left: 48px;
+        transform: rotate(-7000deg);
+        }
+    100% {
+        top: 355px;
+        left: 343px;
+        transform: rotate(7000deg);
+ }
+}
+
+@keyframes container {
+    0% {
+        left: 5px;
+    }
+    100% {
+        left: 300px;
+    }
+}

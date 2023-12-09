@@ -1,0 +1,161 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+body {
+  font-family: "SF Pro Display", sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+.body-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+}
+.body-container .logo-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 43px;
+}
+.body-container .logo-box .fake-div {
+  width: 649px;
+}
+.body-container .logo-box .fake-div img {
+  width: 0;
+  height: 0;
+}
+.body-container .logo-box .fake-div h2 {
+  font-size: 0;
+}
+.body-container .logo-box .menu-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+.body-container .logo-box .menu-box h2 {
+  color: #303031;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+}
+.body-container .logo-box .menu-box h2:nth-child(4) {
+  color: #71A89E;
+  font-weight: 700;
+}
+.body-container .container {
+  margin: 0 auto;
+  max-width: 1328px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 32px;
+  margin-top: 97px;
+}
+.body-container .container .box {
+  margin-top: 150px;
+  max-width: 551px;
+}
+.body-container .container .box h1 {
+  color: #22322F;
+  font-family: SF Pro Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px;
+}
+.body-container .container .box p {
+  color: #22322F;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.48px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+@media (width <= 900px) {
+  .body-container {
+    width: 375px;
+    padding: 74px 24px;
+  }
+  .body-container .logo-box {
+    height: 39px;
+  }
+  .body-container .logo-box .menu-box {
+    position: absolute;
+    color: white;
+    z-index: -1;
+  }
+  .body-container .logo-box .menu-box h2 {
+    color: white;
+  }
+  .body-container .logo-box .menu-box h2:nth-child(4) {
+    color: white;
+  }
+  .body-container .logo-box .fake-div {
+    margin-left: 120px;
+    width: 98px;
+    height: 38px;
+    border-radius: 8px;
+    border: 1px solid #22322F;
+    background: #F9F9F9;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .body-container .logo-box .fake-div img {
+    width: 11.223px;
+    height: 11.271px;
+  }
+  .body-container .logo-box .fake-div h2 {
+    color: #22322F;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30.2px;
+    margin-left: 12.28px;
+  }
+  .body-container .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 0;
+    margin-top: 56px;
+  }
+  .body-container .container .img {
+    width: 370px;
+    height: 370px;
+  }
+  .body-container .container .box {
+    width: 314px;
+    margin-top: 48px;
+  }
+  .body-container .container .box h1 {
+    font-size: 27px;
+    line-height: 43.2px;
+  }
+  .body-container .container .box p {
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: -0.32px;
+    margin-top: 16px;
+  }
+}

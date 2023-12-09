@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+li,
+ul,
+ol {
+
+    list-style: none;
+
+}
+.nav {
+
+    padding: 20px 15px;
+    background: rgb(21, 180, 191);
+
+}
+.container {
+
+    max-width: 1440px;
+
+    margin: 0 auto;
+
+}
+.nav-container {
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+.nav-list {
+
+    display: flex;
+
+    gap: 50px;
+
+}
+.nav-list_item:hover {
+    color: rgba(0, 0, 255, 0.59);
+    transform: scale(1.2);
+}
+button:active {
+    background: rgba(0, 0, 255, 0.59);
+    transform: scale(1.1    );
+}

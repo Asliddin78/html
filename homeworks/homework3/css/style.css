@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap");
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background: #1D1E28;
+}
+
+* {
+  margin: 0;
+}
+
+.body-container {
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 797px;
+  background-image: url(../img/Group\ 8.png);
+}
+.body-container section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 688px;
+  margin: 0 auto;
+}
+.body-container section .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 688px;
+  gap: 32px;
+  margin-top: 104px;
+}
+.body-container section .h1-box h1 {
+  color: #FFF;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 7.5px;
+  margin-top: 132px;
+  text-transform: uppercase;
+}
+.body-container section .img-box {
+  position: relative;
+  width: 148px;
+  height: 150px;
+  background-image: url(../img/Group\ 2.png);
+  background-size: cover;
+}
+.body-container section .img-box .d1 {
+  position: absolute;
+  top: 64px;
+}
+.body-container section .img-box .d {
+  position: absolute;
+  top: 64px;
+  right: 0;
+}
+.body-container section .img-box .fg {
+  position: absolute;
+  width: 148px;
+  height: 70px;
+  border-radius: 0px 0px 8px 8px;
+  opacity: 0.1506;
+  background: #000;
+}
+.body-container section .img-box .hr {
+  width: 148px;
+  height: 1px;
+  opacity: 0.253;
+  background: #000;
+  position: absolute;
+  top: 70px;
+}
+.body-container section .img-box .h2-box {
+  width: 148px;
+  height: 143px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.body-container section .img-box .h2-box h2 {
+  color: #FB5E84;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: -2.4px;
+}
+.body-container section .texts {
+  color: #8385A9;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 5.919px;
+  width: 148px;
+}
+.body-container .logo {
+  width: 136px;
+  margin: 0 auto;
+  margin-top: 233px;
+}
+
+@media (width <= 690px) {
+  .body-container {
+    width: 375px;
+    height: 667px;
+    background-size: cover;
+  }
+  .body-container section {
+    width: 327px;
+  }
+  .body-container section .h1-box h1 {
+    font-size: 18px;
+    letter-spacing: 6.136px;
+    margin-top: 142px;
+  }
+  .body-container section .box {
+    width: 327px;
+    gap: 15px;
+    margin-top: 54px;
+  }
+  .body-container section .img-box {
+    width: 70px;
+    height: 71px;
+  }
+  .body-container section .img-box .d1 {
+    width: 6px;
+    height: 6px;
+    top: 30px;
+    left: -3px;
+  }
+  .body-container section .img-box .d {
+    width: 6px;
+    height: 6px;
+    top: 30px;
+    left: 67px;
+  }
+  .body-container section .img-box .fg {
+    width: 70px;
+    height: 33px;
+  }
+  .body-container section .img-box .hr {
+    width: 70px;
+    height: 0.473px;
+    top: 32.8px;
+  }
+  .body-container section .img-box .h2-box {
+    width: 70px;
+    height: 67px;
+  }
+  .body-container section .img-box .h2-box h2 {
+    font-size: 36px;
+    letter-spacing: -1.08px;
+  }
+  .body-container section .texts {
+    font-size: 7px;
+    letter-spacing: 2.959px;
+    width: 70px;
+  }
+  .body-container .logo {
+    width: 136px;
+  }
+  .body-container .logo img {
+    width: 136px;
+    height: 24px;
+  }
+}

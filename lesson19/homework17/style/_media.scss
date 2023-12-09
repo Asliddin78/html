@@ -1,0 +1,44 @@
+@media (min-width: 375px) and (max-width: 475px) {
+    .container {
+        width: 327px;
+        height: 567px;
+        .img {
+            width: 327px;
+            height: 160px;
+        }
+        .text-box {
+            padding: 32px;
+            h1 {
+                font-size: 22px;
+                margin-bottom: 16px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 25px;
+                margin-bottom: 24px;
+            }
+            .box-change {
+                width: 279px;
+                height: 81px;
+                .box {
+                    width: 247px;
+                    height: 48px;
+                    .price {
+                        h2 {
+                            font-size: 14px;
+                        }
+                        font-size: 14px;
+                    }
+                    .a {
+                        margin-left: 50px;
+                        font-size: 13px;
+                    }
+                }
+            }
+            .box-payment {
+                width: 279px;
+                height: 50px;
+            }
+        }
+    }
+}
