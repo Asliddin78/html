@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Public Sans", sans-serif;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 150px;
+    margin-top: 30px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1111px;
+    height: 32px;
+    margin-bottom: 54px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 306px;
+}
+.li-item {
+    list-style: none;
+}
+.a2, .a3 {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #33323d;
+}
+.a1 {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #5fb4a2;
+}
+
+
+.img-box {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 1110px;
+    height: 600px;
+    background-image: url(./img/Bitmap@2x.jpg);
+    background-size: 100%;
+}
+
+.mini-box {
+    width: 390px;
+    height: 302px;
+    background-color: #ffffff;
+    padding: 55px 55px 0 0;
+}
+.h2-t {
+    font-family: "Ibarra Real Nova", serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #33323d;
+    margin-bottom: 50px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    background: #203a4c;
+    width: 200px;
+    height: 48px;
+    column-gap: 30px;
+
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background: #000;
+    opacity: 0.1;
+}
+
+.human {
+    width: 540px;
+    height: 600px
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    height: 600px;
+}
+.about-text-box {
+    width: 445px;
+    height: 600px;
+}
+
+.hr1 {
+    width: 350px;
+    height: 1px;
+    background: #33323d;
+    opacity: 0.15;
+    margin-bottom: 50px;
+}
+.hr2 {
+    width: 350px;
+    height: 1px;
+    background: #33323d;
+    opacity: 0.15;
+    margin-top: 46px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 502px;
+}
+.h3-t {
+    font-family: "Ibarra Real Nova", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 105%;
+    letter-spacing: -0.01em;
+    color: #33323d;
+}
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #33323d;
+    opacity: 0.8;   
+}
+
+.partfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #33323d;
+    width: 202px;
+    height: 48px;
+
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #33323d;
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    height: 84px;
+    margin-bottom: 150px;
+}
+.h3-t2 {
+    font-family: "Ibarra Real Nova", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 105%;
+    letter-spacing: -0.01em;
+    color: #33323d;
+    width: 350px;
+}
+
+.fr3 {
+    width: 534px;
+    height: 1px;
+    background: #33323d;
+    opacity: 0.15;
+}
+
+.contac-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 162px;
+    height: 48px;
+    border: 1px solid #33323d;
+
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #33323d;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.nav-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 650px;
+    width: 100%;
+    height: 80px;
+    background: #33323d;
+}
+
+
+.footer-box {
+    width: 418px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.af {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
